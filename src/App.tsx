@@ -727,7 +727,7 @@ function App() {
                   </div>
                   <div>
                     <p className="text-xs text-white/50">工作时间</p>
-                    <p className="text-sm font-medium">7×24小时全天候服务</p>
+                    <p className="text-sm font-medium">7×24小时全天服务</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
