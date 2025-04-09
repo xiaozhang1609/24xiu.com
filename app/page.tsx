@@ -1,5 +1,7 @@
-import ITSupportLanding from "@/it-support-landing"
+"use client"
 
-export default function Home() {
+import ITSupportLanding from "../it-support-landing"
+
+export default function SyntheticV0PageForDeployment() {
   return <ITSupportLanding />
 }

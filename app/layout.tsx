@@ -3,24 +3,22 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: '24小时远程电脑维修',
-  description: '专业提供24小时远程电脑维修服务，快速解决各类电脑故障问题，技术专业，服务可靠',
-  keywords: '远程电脑维修,24小时维修,电脑故障维修,在线电脑维修,远程技术支持',
+  description: '专业的24小时远程电脑维修服务，快速解决您的电脑问题，提供专业的技术支持和维修服务',
+  keywords: '远程电脑维修,24小时维修,电脑故障维修,在线技术支持,远程桌面维修',
   icons: {
     icon: '/favicon.png',
     shortcut: '/favicon.png',
     apple: '/favicon.png',
   },
-  openGraph: {
-    title: '24小时远程电脑维修',
-    description: '专业提供24小时远程电脑维修服务，快速解决各类电脑故障问题，技术专业，服务可靠',
-    images: '/favicon.png',
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: 'index, follow',
   viewport: 'width=device-width, initial-scale=1',
   themeColor: '#ffffff',
+  openGraph: {
+    title: '24小时远程电脑维修',
+    description: '专业的24小时远程电脑维修服务，快速解决您的电脑问题，提供专业的技术支持和维修服务',
+    type: 'website',
+    locale: 'zh_CN',
+  },
 }
 
 export default function RootLayout({
@@ -29,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh">
       <body>{children}</body>
     </html>
   )
