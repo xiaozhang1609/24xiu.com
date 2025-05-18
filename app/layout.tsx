@@ -1,6 +1,12 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#ffffff'
+}
+
 export const metadata: Metadata = {
   title: '24小时远程电脑维修',
   description: '专业的24小时远程电脑维修服务，快速解决您的电脑问题，提供专业的技术支持和维修服务',
@@ -11,8 +17,6 @@ export const metadata: Metadata = {
     apple: '/favicon.png',
   },
   robots: 'index, follow',
-  viewport: 'width=device-width, initial-scale=1',
-  themeColor: '#ffffff',
   openGraph: {
     title: '24小时远程电脑维修',
     description: '专业的24小时远程电脑维修服务，快速解决您的电脑问题，提供专业的技术支持和维修服务',
