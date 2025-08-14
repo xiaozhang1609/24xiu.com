@@ -10,7 +10,7 @@ const SERVICES = [
   { id: 1, title: "系统维护", description: "系统重装、系统加速、垃圾清理" },
   { id: 2, title: "游戏优化", description: "游戏帧数提升、游戏驱动安装、游戏运行优化" },
   { id: 3, title: "网络与驱动", description: "网络修复、网络优化、驱动程序安装" },
-  { id: 4, title: "故障修复", description: "蓝屏修复、软件故障修复、系统崩溃恢复" },
+  { id: 4, title: "故障修复", description: "蓝屏修复、软件问题修复、系统崩溃恢复" },
 ]
 
 const SERVICE_TARGETS = [
