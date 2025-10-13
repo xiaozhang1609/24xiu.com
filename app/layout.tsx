@@ -19,17 +19,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <head>
-        <style>{`
-html {
-  font-family: ${GeistSans.style.fontFamily};
-  --font-sans: ${GeistSans.variable};
-  --font-mono: ${GeistMono.variable};
-}
-        `}</style>
+        <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
       </head>
-      <body>{children}</body>
+      <body className={GeistSans.className}>{children}</body>
     </html>
   )
 }
